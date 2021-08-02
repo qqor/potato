@@ -1,0 +1,26 @@
+4257668: push rbp
+4257669: mov rbp, rsp
+4257672: sub rsp, 0x40
+4257676: mov qword ptr [rbp-0x28], rdi
+4257680: mov qword ptr [rbp-0x30], rsi
+4257684: mov qword ptr [rbp-0x38], rdx
+4257688: mov qword ptr [rbp-0x40], rcx
+4257692: mov qword ptr [rbp-0x10], 0xffffffffffffffff
+4257700: mov byte ptr [rbp-0x11], 0x0
+4257704: mov rax, qword ptr [rbp-0x28]
+4257708: mov rdi, rax
+4257711: call 0x401fb0
+4202416: jmp qword ptr [rip+0x21b41a]
+4202422: push 0x16
+4202427: jmp 0x401e40
+4202048: push qword ptr [rip+0x21b4ca]
+4202054: jmp qword ptr [rip+0x21b4cc]
+4257716: mov qword ptr [rbp-0x20], rax
+4257720: mov qword ptr [rbp-0x8], 0x0
+4257728: jmp 0x40f87f
+4257919: mov rax, qword ptr [rbp-0x8]
+4257923: lea rdx, ptr [rax*8]
+4257931: mov rax, qword ptr [rbp-0x30]
+4257935: add rax, rdx
+4257938: mov rax, qword ptr [rax]
+#eof

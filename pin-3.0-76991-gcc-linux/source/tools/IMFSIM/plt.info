@@ -1,0 +1,495 @@
+
+/home/cereal/fuzzing/data/gcc/gcc_coreutils_64_O0_df:     file format elf64-x86-64
+
+
+Disassembly of section .plt:
+
+0000000000401e40 <getenv@plt-0x10>:
+  401e40:	ff 35 ca b4 21 00    	pushq  0x21b4ca(%rip)        # 61d310 <_GLOBAL_OFFSET_TABLE_+0x8>
+  401e46:	ff 25 cc b4 21 00    	jmpq   *0x21b4cc(%rip)        # 61d318 <_GLOBAL_OFFSET_TABLE_+0x10>
+  401e4c:	0f 1f 40 00          	nopl   0x0(%rax)
+
+0000000000401e50 <getenv@plt>:
+  401e50:	ff 25 ca b4 21 00    	jmpq   *0x21b4ca(%rip)        # 61d320 <_GLOBAL_OFFSET_TABLE_+0x18>
+  401e56:	68 00 00 00 00       	pushq  $0x0
+  401e5b:	e9 e0 ff ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000401e60 <free@plt>:
+  401e60:	ff 25 c2 b4 21 00    	jmpq   *0x21b4c2(%rip)        # 61d328 <_GLOBAL_OFFSET_TABLE_+0x20>
+  401e66:	68 01 00 00 00       	pushq  $0x1
+  401e6b:	e9 d0 ff ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000401e70 <endmntent@plt>:
+  401e70:	ff 25 ba b4 21 00    	jmpq   *0x21b4ba(%rip)        # 61d330 <_GLOBAL_OFFSET_TABLE_+0x28>
+  401e76:	68 02 00 00 00       	pushq  $0x2
+  401e7b:	e9 c0 ff ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000401e80 <strverscmp@plt>:
+  401e80:	ff 25 b2 b4 21 00    	jmpq   *0x21b4b2(%rip)        # 61d338 <_GLOBAL_OFFSET_TABLE_+0x30>
+  401e86:	68 03 00 00 00       	pushq  $0x3
+  401e8b:	e9 b0 ff ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000401e90 <abort@plt>:
+  401e90:	ff 25 aa b4 21 00    	jmpq   *0x21b4aa(%rip)        # 61d340 <_GLOBAL_OFFSET_TABLE_+0x38>
+  401e96:	68 04 00 00 00       	pushq  $0x4
+  401e9b:	e9 a0 ff ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000401ea0 <__errno_location@plt>:
+  401ea0:	ff 25 a2 b4 21 00    	jmpq   *0x21b4a2(%rip)        # 61d348 <_GLOBAL_OFFSET_TABLE_+0x40>
+  401ea6:	68 05 00 00 00       	pushq  $0x5
+  401eab:	e9 90 ff ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000401eb0 <strncmp@plt>:
+  401eb0:	ff 25 9a b4 21 00    	jmpq   *0x21b49a(%rip)        # 61d350 <_GLOBAL_OFFSET_TABLE_+0x48>
+  401eb6:	68 06 00 00 00       	pushq  $0x6
+  401ebb:	e9 80 ff ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000401ec0 <_exit@plt>:
+  401ec0:	ff 25 92 b4 21 00    	jmpq   *0x21b492(%rip)        # 61d358 <_GLOBAL_OFFSET_TABLE_+0x50>
+  401ec6:	68 07 00 00 00       	pushq  $0x7
+  401ecb:	e9 70 ff ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000401ed0 <strcpy@plt>:
+  401ed0:	ff 25 8a b4 21 00    	jmpq   *0x21b48a(%rip)        # 61d360 <_GLOBAL_OFFSET_TABLE_+0x58>
+  401ed6:	68 08 00 00 00       	pushq  $0x8
+  401edb:	e9 60 ff ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000401ee0 <__fpending@plt>:
+  401ee0:	ff 25 82 b4 21 00    	jmpq   *0x21b482(%rip)        # 61d368 <_GLOBAL_OFFSET_TABLE_+0x60>
+  401ee6:	68 09 00 00 00       	pushq  $0x9
+  401eeb:	e9 50 ff ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000401ef0 <iconv@plt>:
+  401ef0:	ff 25 7a b4 21 00    	jmpq   *0x21b47a(%rip)        # 61d370 <_GLOBAL_OFFSET_TABLE_+0x68>
+  401ef6:	68 0a 00 00 00       	pushq  $0xa
+  401efb:	e9 40 ff ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000401f00 <getc_unlocked@plt>:
+  401f00:	ff 25 72 b4 21 00    	jmpq   *0x21b472(%rip)        # 61d378 <_GLOBAL_OFFSET_TABLE_+0x70>
+  401f06:	68 0b 00 00 00       	pushq  $0xb
+  401f0b:	e9 30 ff ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000401f10 <iswcntrl@plt>:
+  401f10:	ff 25 6a b4 21 00    	jmpq   *0x21b46a(%rip)        # 61d380 <_GLOBAL_OFFSET_TABLE_+0x78>
+  401f16:	68 0c 00 00 00       	pushq  $0xc
+  401f1b:	e9 20 ff ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000401f20 <wcswidth@plt>:
+  401f20:	ff 25 62 b4 21 00    	jmpq   *0x21b462(%rip)        # 61d388 <_GLOBAL_OFFSET_TABLE_+0x80>
+  401f26:	68 0d 00 00 00       	pushq  $0xd
+  401f2b:	e9 10 ff ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000401f30 <localeconv@plt>:
+  401f30:	ff 25 5a b4 21 00    	jmpq   *0x21b45a(%rip)        # 61d390 <_GLOBAL_OFFSET_TABLE_+0x88>
+  401f36:	68 0e 00 00 00       	pushq  $0xe
+  401f3b:	e9 00 ff ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000401f40 <mbstowcs@plt>:
+  401f40:	ff 25 52 b4 21 00    	jmpq   *0x21b452(%rip)        # 61d398 <_GLOBAL_OFFSET_TABLE_+0x90>
+  401f46:	68 0f 00 00 00       	pushq  $0xf
+  401f4b:	e9 f0 fe ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000401f50 <readlink@plt>:
+  401f50:	ff 25 4a b4 21 00    	jmpq   *0x21b44a(%rip)        # 61d3a0 <_GLOBAL_OFFSET_TABLE_+0x98>
+  401f56:	68 10 00 00 00       	pushq  $0x10
+  401f5b:	e9 e0 fe ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000401f60 <fcntl@plt>:
+  401f60:	ff 25 42 b4 21 00    	jmpq   *0x21b442(%rip)        # 61d3a8 <_GLOBAL_OFFSET_TABLE_+0xa0>
+  401f66:	68 11 00 00 00       	pushq  $0x11
+  401f6b:	e9 d0 fe ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000401f70 <textdomain@plt>:
+  401f70:	ff 25 3a b4 21 00    	jmpq   *0x21b43a(%rip)        # 61d3b0 <_GLOBAL_OFFSET_TABLE_+0xa8>
+  401f76:	68 12 00 00 00       	pushq  $0x12
+  401f7b:	e9 c0 fe ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000401f80 <fclose@plt>:
+  401f80:	ff 25 32 b4 21 00    	jmpq   *0x21b432(%rip)        # 61d3b8 <_GLOBAL_OFFSET_TABLE_+0xb0>
+  401f86:	68 13 00 00 00       	pushq  $0x13
+  401f8b:	e9 b0 fe ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000401f90 <bindtextdomain@plt>:
+  401f90:	ff 25 2a b4 21 00    	jmpq   *0x21b42a(%rip)        # 61d3c0 <_GLOBAL_OFFSET_TABLE_+0xb8>
+  401f96:	68 14 00 00 00       	pushq  $0x14
+  401f9b:	e9 a0 fe ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000401fa0 <__ctype_get_mb_cur_max@plt>:
+  401fa0:	ff 25 22 b4 21 00    	jmpq   *0x21b422(%rip)        # 61d3c8 <_GLOBAL_OFFSET_TABLE_+0xc0>
+  401fa6:	68 15 00 00 00       	pushq  $0x15
+  401fab:	e9 90 fe ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000401fb0 <strlen@plt>:
+  401fb0:	ff 25 1a b4 21 00    	jmpq   *0x21b41a(%rip)        # 61d3d0 <_GLOBAL_OFFSET_TABLE_+0xc8>
+  401fb6:	68 16 00 00 00       	pushq  $0x16
+  401fbb:	e9 80 fe ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000401fc0 <__lxstat@plt>:
+  401fc0:	ff 25 12 b4 21 00    	jmpq   *0x21b412(%rip)        # 61d3d8 <_GLOBAL_OFFSET_TABLE_+0xd0>
+  401fc6:	68 17 00 00 00       	pushq  $0x17
+  401fcb:	e9 70 fe ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000401fd0 <openat@plt>:
+  401fd0:	ff 25 0a b4 21 00    	jmpq   *0x21b40a(%rip)        # 61d3e0 <_GLOBAL_OFFSET_TABLE_+0xd8>
+  401fd6:	68 18 00 00 00       	pushq  $0x18
+  401fdb:	e9 60 fe ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000401fe0 <chdir@plt>:
+  401fe0:	ff 25 02 b4 21 00    	jmpq   *0x21b402(%rip)        # 61d3e8 <_GLOBAL_OFFSET_TABLE_+0xe0>
+  401fe6:	68 19 00 00 00       	pushq  $0x19
+  401feb:	e9 50 fe ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000401ff0 <mbrtowc@plt>:
+  401ff0:	ff 25 fa b3 21 00    	jmpq   *0x21b3fa(%rip)        # 61d3f0 <_GLOBAL_OFFSET_TABLE_+0xe8>
+  401ff6:	68 1a 00 00 00       	pushq  $0x1a
+  401ffb:	e9 40 fe ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402000 <gettext@plt>:
+  402000:	ff 25 f2 b3 21 00    	jmpq   *0x21b3f2(%rip)        # 61d3f8 <_GLOBAL_OFFSET_TABLE_+0xf0>
+  402006:	68 1b 00 00 00       	pushq  $0x1b
+  40200b:	e9 30 fe ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402010 <strchr@plt>:
+  402010:	ff 25 ea b3 21 00    	jmpq   *0x21b3ea(%rip)        # 61d400 <_GLOBAL_OFFSET_TABLE_+0xf8>
+  402016:	68 1c 00 00 00       	pushq  $0x1c
+  40201b:	e9 20 fe ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402020 <printf@plt>:
+  402020:	ff 25 e2 b3 21 00    	jmpq   *0x21b3e2(%rip)        # 61d408 <_GLOBAL_OFFSET_TABLE_+0x100>
+  402026:	68 1d 00 00 00       	pushq  $0x1d
+  40202b:	e9 10 fe ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402030 <__fxstatat@plt>:
+  402030:	ff 25 da b3 21 00    	jmpq   *0x21b3da(%rip)        # 61d410 <_GLOBAL_OFFSET_TABLE_+0x108>
+  402036:	68 1e 00 00 00       	pushq  $0x1e
+  40203b:	e9 00 fe ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402040 <snprintf@plt>:
+  402040:	ff 25 d2 b3 21 00    	jmpq   *0x21b3d2(%rip)        # 61d418 <_GLOBAL_OFFSET_TABLE_+0x110>
+  402046:	68 1f 00 00 00       	pushq  $0x1f
+  40204b:	e9 f0 fd ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402050 <strrchr@plt>:
+  402050:	ff 25 ca b3 21 00    	jmpq   *0x21b3ca(%rip)        # 61d420 <_GLOBAL_OFFSET_TABLE_+0x118>
+  402056:	68 20 00 00 00       	pushq  $0x20
+  40205b:	e9 e0 fd ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402060 <uname@plt>:
+  402060:	ff 25 c2 b3 21 00    	jmpq   *0x21b3c2(%rip)        # 61d428 <_GLOBAL_OFFSET_TABLE_+0x120>
+  402066:	68 21 00 00 00       	pushq  $0x21
+  40206b:	e9 d0 fd ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402070 <lseek@plt>:
+  402070:	ff 25 ba b3 21 00    	jmpq   *0x21b3ba(%rip)        # 61d430 <_GLOBAL_OFFSET_TABLE_+0x128>
+  402076:	68 22 00 00 00       	pushq  $0x22
+  40207b:	e9 c0 fd ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402080 <__assert_fail@plt>:
+  402080:	ff 25 b2 b3 21 00    	jmpq   *0x21b3b2(%rip)        # 61d438 <_GLOBAL_OFFSET_TABLE_+0x130>
+  402086:	68 23 00 00 00       	pushq  $0x23
+  40208b:	e9 b0 fd ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402090 <memset@plt>:
+  402090:	ff 25 aa b3 21 00    	jmpq   *0x21b3aa(%rip)        # 61d440 <_GLOBAL_OFFSET_TABLE_+0x138>
+  402096:	68 24 00 00 00       	pushq  $0x24
+  40209b:	e9 a0 fd ff ff       	jmpq   401e40 <_init+0x10>
+
+00000000004020a0 <fscanf@plt>:
+  4020a0:	ff 25 a2 b3 21 00    	jmpq   *0x21b3a2(%rip)        # 61d448 <_GLOBAL_OFFSET_TABLE_+0x140>
+  4020a6:	68 25 00 00 00       	pushq  $0x25
+  4020ab:	e9 90 fd ff ff       	jmpq   401e40 <_init+0x10>
+
+00000000004020b0 <strnlen@plt>:
+  4020b0:	ff 25 9a b3 21 00    	jmpq   *0x21b39a(%rip)        # 61d450 <_GLOBAL_OFFSET_TABLE_+0x148>
+  4020b6:	68 26 00 00 00       	pushq  $0x26
+  4020bb:	e9 80 fd ff ff       	jmpq   401e40 <_init+0x10>
+
+00000000004020c0 <canonicalize_file_name@plt>:
+  4020c0:	ff 25 92 b3 21 00    	jmpq   *0x21b392(%rip)        # 61d458 <_GLOBAL_OFFSET_TABLE_+0x150>
+  4020c6:	68 27 00 00 00       	pushq  $0x27
+  4020cb:	e9 70 fd ff ff       	jmpq   401e40 <_init+0x10>
+
+00000000004020d0 <close@plt>:
+  4020d0:	ff 25 8a b3 21 00    	jmpq   *0x21b38a(%rip)        # 61d460 <_GLOBAL_OFFSET_TABLE_+0x158>
+  4020d6:	68 28 00 00 00       	pushq  $0x28
+  4020db:	e9 60 fd ff ff       	jmpq   401e40 <_init+0x10>
+
+00000000004020e0 <rewinddir@plt>:
+  4020e0:	ff 25 82 b3 21 00    	jmpq   *0x21b382(%rip)        # 61d468 <_GLOBAL_OFFSET_TABLE_+0x160>
+  4020e6:	68 29 00 00 00       	pushq  $0x29
+  4020eb:	e9 50 fd ff ff       	jmpq   401e40 <_init+0x10>
+
+00000000004020f0 <strspn@plt>:
+  4020f0:	ff 25 7a b3 21 00    	jmpq   *0x21b37a(%rip)        # 61d470 <_GLOBAL_OFFSET_TABLE_+0x168>
+  4020f6:	68 2a 00 00 00       	pushq  $0x2a
+  4020fb:	e9 40 fd ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402100 <closedir@plt>:
+  402100:	ff 25 72 b3 21 00    	jmpq   *0x21b372(%rip)        # 61d478 <_GLOBAL_OFFSET_TABLE_+0x170>
+  402106:	68 2b 00 00 00       	pushq  $0x2b
+  40210b:	e9 30 fd ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402110 <fputc@plt>:
+  402110:	ff 25 6a b3 21 00    	jmpq   *0x21b36a(%rip)        # 61d480 <_GLOBAL_OFFSET_TABLE_+0x178>
+  402116:	68 2c 00 00 00       	pushq  $0x2c
+  40211b:	e9 20 fd ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402120 <memchr@plt>:
+  402120:	ff 25 62 b3 21 00    	jmpq   *0x21b362(%rip)        # 61d488 <_GLOBAL_OFFSET_TABLE_+0x180>
+  402126:	68 2d 00 00 00       	pushq  $0x2d
+  40212b:	e9 10 fd ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402130 <__libc_start_main@plt>:
+  402130:	ff 25 5a b3 21 00    	jmpq   *0x21b35a(%rip)        # 61d490 <_GLOBAL_OFFSET_TABLE_+0x188>
+  402136:	68 2e 00 00 00       	pushq  $0x2e
+  40213b:	e9 00 fd ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402140 <memcmp@plt>:
+  402140:	ff 25 52 b3 21 00    	jmpq   *0x21b352(%rip)        # 61d498 <_GLOBAL_OFFSET_TABLE_+0x190>
+  402146:	68 2f 00 00 00       	pushq  $0x2f
+  40214b:	e9 f0 fc ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402150 <fputs_unlocked@plt>:
+  402150:	ff 25 4a b3 21 00    	jmpq   *0x21b34a(%rip)        # 61d4a0 <_GLOBAL_OFFSET_TABLE_+0x198>
+  402156:	68 30 00 00 00       	pushq  $0x30
+  40215b:	e9 e0 fc ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402160 <ferror_unlocked@plt>:
+  402160:	ff 25 42 b3 21 00    	jmpq   *0x21b342(%rip)        # 61d4a8 <_GLOBAL_OFFSET_TABLE_+0x1a0>
+  402166:	68 31 00 00 00       	pushq  $0x31
+  40216b:	e9 d0 fc ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402170 <calloc@plt>:
+  402170:	ff 25 3a b3 21 00    	jmpq   *0x21b33a(%rip)        # 61d4b0 <_GLOBAL_OFFSET_TABLE_+0x1a8>
+  402176:	68 32 00 00 00       	pushq  $0x32
+  40217b:	e9 c0 fc ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402180 <memcpy@plt>:
+  402180:	ff 25 32 b3 21 00    	jmpq   *0x21b332(%rip)        # 61d4b8 <_GLOBAL_OFFSET_TABLE_+0x1b0>
+  402186:	68 33 00 00 00       	pushq  $0x33
+  40218b:	e9 b0 fc ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402190 <strcmp@plt>:
+  402190:	ff 25 2a b3 21 00    	jmpq   *0x21b32a(%rip)        # 61d4c0 <_GLOBAL_OFFSET_TABLE_+0x1b8>
+  402196:	68 34 00 00 00       	pushq  $0x34
+  40219b:	e9 a0 fc ff ff       	jmpq   401e40 <_init+0x10>
+
+00000000004021a0 <fprintf@plt>:
+  4021a0:	ff 25 22 b3 21 00    	jmpq   *0x21b322(%rip)        # 61d4c8 <_GLOBAL_OFFSET_TABLE_+0x1c0>
+  4021a6:	68 35 00 00 00       	pushq  $0x35
+  4021ab:	e9 90 fc ff ff       	jmpq   401e40 <_init+0x10>
+
+00000000004021b0 <putchar_unlocked@plt>:
+  4021b0:	ff 25 1a b3 21 00    	jmpq   *0x21b31a(%rip)        # 61d4d0 <_GLOBAL_OFFSET_TABLE_+0x1c8>
+  4021b6:	68 36 00 00 00       	pushq  $0x36
+  4021bb:	e9 80 fc ff ff       	jmpq   401e40 <_init+0x10>
+
+00000000004021c0 <fileno@plt>:
+  4021c0:	ff 25 12 b3 21 00    	jmpq   *0x21b312(%rip)        # 61d4d8 <_GLOBAL_OFFSET_TABLE_+0x1d0>
+  4021c6:	68 37 00 00 00       	pushq  $0x37
+  4021cb:	e9 70 fc ff ff       	jmpq   401e40 <_init+0x10>
+
+00000000004021d0 <statfs@plt>:
+  4021d0:	ff 25 0a b3 21 00    	jmpq   *0x21b30a(%rip)        # 61d4e0 <_GLOBAL_OFFSET_TABLE_+0x1d8>
+  4021d6:	68 38 00 00 00       	pushq  $0x38
+  4021db:	e9 60 fc ff ff       	jmpq   401e40 <_init+0x10>
+
+00000000004021e0 <__xstat@plt>:
+  4021e0:	ff 25 02 b3 21 00    	jmpq   *0x21b302(%rip)        # 61d4e8 <_GLOBAL_OFFSET_TABLE_+0x1e0>
+  4021e6:	68 39 00 00 00       	pushq  $0x39
+  4021eb:	e9 50 fc ff ff       	jmpq   401e40 <_init+0x10>
+
+00000000004021f0 <readdir@plt>:
+  4021f0:	ff 25 fa b2 21 00    	jmpq   *0x21b2fa(%rip)        # 61d4f0 <_GLOBAL_OFFSET_TABLE_+0x1e8>
+  4021f6:	68 3a 00 00 00       	pushq  $0x3a
+  4021fb:	e9 40 fc ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402200 <sync@plt>:
+  402200:	ff 25 f2 b2 21 00    	jmpq   *0x21b2f2(%rip)        # 61d4f8 <_GLOBAL_OFFSET_TABLE_+0x1f0>
+  402206:	68 3b 00 00 00       	pushq  $0x3b
+  40220b:	e9 30 fc ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402210 <wcwidth@plt>:
+  402210:	ff 25 ea b2 21 00    	jmpq   *0x21b2ea(%rip)        # 61d500 <_GLOBAL_OFFSET_TABLE_+0x1f8>
+  402216:	68 3c 00 00 00       	pushq  $0x3c
+  40221b:	e9 20 fc ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402220 <putc_unlocked@plt>:
+  402220:	ff 25 e2 b2 21 00    	jmpq   *0x21b2e2(%rip)        # 61d508 <_GLOBAL_OFFSET_TABLE_+0x200>
+  402226:	68 3d 00 00 00       	pushq  $0x3d
+  40222b:	e9 10 fc ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402230 <iswalnum@plt>:
+  402230:	ff 25 da b2 21 00    	jmpq   *0x21b2da(%rip)        # 61d510 <_GLOBAL_OFFSET_TABLE_+0x208>
+  402236:	68 3e 00 00 00       	pushq  $0x3e
+  40223b:	e9 00 fc ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402240 <malloc@plt>:
+  402240:	ff 25 d2 b2 21 00    	jmpq   *0x21b2d2(%rip)        # 61d518 <_GLOBAL_OFFSET_TABLE_+0x210>
+  402246:	68 3f 00 00 00       	pushq  $0x3f
+  40224b:	e9 f0 fb ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402250 <fflush@plt>:
+  402250:	ff 25 ca b2 21 00    	jmpq   *0x21b2ca(%rip)        # 61d520 <_GLOBAL_OFFSET_TABLE_+0x218>
+  402256:	68 40 00 00 00       	pushq  $0x40
+  40225b:	e9 e0 fb ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402260 <getmntent@plt>:
+  402260:	ff 25 c2 b2 21 00    	jmpq   *0x21b2c2(%rip)        # 61d528 <_GLOBAL_OFFSET_TABLE_+0x220>
+  402266:	68 41 00 00 00       	pushq  $0x41
+  40226b:	e9 d0 fb ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402270 <setmntent@plt>:
+  402270:	ff 25 ba b2 21 00    	jmpq   *0x21b2ba(%rip)        # 61d530 <_GLOBAL_OFFSET_TABLE_+0x228>
+  402276:	68 42 00 00 00       	pushq  $0x42
+  40227b:	e9 c0 fb ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402280 <nl_langinfo@plt>:
+  402280:	ff 25 b2 b2 21 00    	jmpq   *0x21b2b2(%rip)        # 61d538 <_GLOBAL_OFFSET_TABLE_+0x230>
+  402286:	68 43 00 00 00       	pushq  $0x43
+  40228b:	e9 b0 fb ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402290 <ungetc@plt>:
+  402290:	ff 25 aa b2 21 00    	jmpq   *0x21b2aa(%rip)        # 61d540 <_GLOBAL_OFFSET_TABLE_+0x238>
+  402296:	68 44 00 00 00       	pushq  $0x44
+  40229b:	e9 a0 fb ff ff       	jmpq   401e40 <_init+0x10>
+
+00000000004022a0 <__fxstat@plt>:
+  4022a0:	ff 25 a2 b2 21 00    	jmpq   *0x21b2a2(%rip)        # 61d548 <_GLOBAL_OFFSET_TABLE_+0x240>
+  4022a6:	68 45 00 00 00       	pushq  $0x45
+  4022ab:	e9 90 fb ff ff       	jmpq   401e40 <_init+0x10>
+
+00000000004022b0 <__freading@plt>:
+  4022b0:	ff 25 9a b2 21 00    	jmpq   *0x21b29a(%rip)        # 61d550 <_GLOBAL_OFFSET_TABLE_+0x248>
+  4022b6:	68 46 00 00 00       	pushq  $0x46
+  4022bb:	e9 80 fb ff ff       	jmpq   401e40 <_init+0x10>
+
+00000000004022c0 <statvfs@plt>:
+  4022c0:	ff 25 92 b2 21 00    	jmpq   *0x21b292(%rip)        # 61d558 <_GLOBAL_OFFSET_TABLE_+0x250>
+  4022c6:	68 47 00 00 00       	pushq  $0x47
+  4022cb:	e9 70 fb ff ff       	jmpq   401e40 <_init+0x10>
+
+00000000004022d0 <fchdir@plt>:
+  4022d0:	ff 25 8a b2 21 00    	jmpq   *0x21b28a(%rip)        # 61d560 <_GLOBAL_OFFSET_TABLE_+0x258>
+  4022d6:	68 48 00 00 00       	pushq  $0x48
+  4022db:	e9 60 fb ff ff       	jmpq   401e40 <_init+0x10>
+
+00000000004022e0 <realloc@plt>:
+  4022e0:	ff 25 82 b2 21 00    	jmpq   *0x21b282(%rip)        # 61d568 <_GLOBAL_OFFSET_TABLE_+0x260>
+  4022e6:	68 49 00 00 00       	pushq  $0x49
+  4022eb:	e9 50 fb ff ff       	jmpq   401e40 <_init+0x10>
+
+00000000004022f0 <fdopen@plt>:
+  4022f0:	ff 25 7a b2 21 00    	jmpq   *0x21b27a(%rip)        # 61d570 <_GLOBAL_OFFSET_TABLE_+0x268>
+  4022f6:	68 4a 00 00 00       	pushq  $0x4a
+  4022fb:	e9 40 fb ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402300 <setlocale@plt>:
+  402300:	ff 25 72 b2 21 00    	jmpq   *0x21b272(%rip)        # 61d578 <_GLOBAL_OFFSET_TABLE_+0x270>
+  402306:	68 4b 00 00 00       	pushq  $0x4b
+  40230b:	e9 30 fb ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402310 <iconv_close@plt>:
+  402310:	ff 25 6a b2 21 00    	jmpq   *0x21b26a(%rip)        # 61d580 <_GLOBAL_OFFSET_TABLE_+0x278>
+  402316:	68 4c 00 00 00       	pushq  $0x4c
+  40231b:	e9 20 fb ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402320 <iswspace@plt>:
+  402320:	ff 25 62 b2 21 00    	jmpq   *0x21b262(%rip)        # 61d588 <_GLOBAL_OFFSET_TABLE_+0x280>
+  402326:	68 4d 00 00 00       	pushq  $0x4d
+  40232b:	e9 10 fb ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402330 <mempcpy@plt>:
+  402330:	ff 25 5a b2 21 00    	jmpq   *0x21b25a(%rip)        # 61d590 <_GLOBAL_OFFSET_TABLE_+0x288>
+  402336:	68 4e 00 00 00       	pushq  $0x4e
+  40233b:	e9 00 fb ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402340 <memmove@plt>:
+  402340:	ff 25 52 b2 21 00    	jmpq   *0x21b252(%rip)        # 61d598 <_GLOBAL_OFFSET_TABLE_+0x290>
+  402346:	68 4f 00 00 00       	pushq  $0x4f
+  40234b:	e9 f0 fa ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402350 <error@plt>:
+  402350:	ff 25 4a b2 21 00    	jmpq   *0x21b24a(%rip)        # 61d5a0 <_GLOBAL_OFFSET_TABLE_+0x298>
+  402356:	68 50 00 00 00       	pushq  $0x50
+  40235b:	e9 e0 fa ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402360 <memrchr@plt>:
+  402360:	ff 25 42 b2 21 00    	jmpq   *0x21b242(%rip)        # 61d5a8 <_GLOBAL_OFFSET_TABLE_+0x2a0>
+  402366:	68 51 00 00 00       	pushq  $0x51
+  40236b:	e9 d0 fa ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402370 <open@plt>:
+  402370:	ff 25 3a b2 21 00    	jmpq   *0x21b23a(%rip)        # 61d5b0 <_GLOBAL_OFFSET_TABLE_+0x2a8>
+  402376:	68 52 00 00 00       	pushq  $0x52
+  40237b:	e9 c0 fa ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402380 <fseeko@plt>:
+  402380:	ff 25 32 b2 21 00    	jmpq   *0x21b232(%rip)        # 61d5b8 <_GLOBAL_OFFSET_TABLE_+0x2b0>
+  402386:	68 53 00 00 00       	pushq  $0x53
+  40238b:	e9 b0 fa ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402390 <strtoumax@plt>:
+  402390:	ff 25 2a b2 21 00    	jmpq   *0x21b22a(%rip)        # 61d5c0 <_GLOBAL_OFFSET_TABLE_+0x2b8>
+  402396:	68 54 00 00 00       	pushq  $0x54
+  40239b:	e9 a0 fa ff ff       	jmpq   401e40 <_init+0x10>
+
+00000000004023a0 <fdopendir@plt>:
+  4023a0:	ff 25 22 b2 21 00    	jmpq   *0x21b222(%rip)        # 61d5c8 <_GLOBAL_OFFSET_TABLE_+0x2c0>
+  4023a6:	68 55 00 00 00       	pushq  $0x55
+  4023ab:	e9 90 fa ff ff       	jmpq   401e40 <_init+0x10>
+
+00000000004023b0 <__cxa_atexit@plt>:
+  4023b0:	ff 25 1a b2 21 00    	jmpq   *0x21b21a(%rip)        # 61d5d0 <_GLOBAL_OFFSET_TABLE_+0x2c8>
+  4023b6:	68 56 00 00 00       	pushq  $0x56
+  4023bb:	e9 80 fa ff ff       	jmpq   401e40 <_init+0x10>
+
+00000000004023c0 <wcstombs@plt>:
+  4023c0:	ff 25 12 b2 21 00    	jmpq   *0x21b212(%rip)        # 61d5d8 <_GLOBAL_OFFSET_TABLE_+0x2d0>
+  4023c6:	68 57 00 00 00       	pushq  $0x57
+  4023cb:	e9 70 fa ff ff       	jmpq   401e40 <_init+0x10>
+
+00000000004023d0 <sprintf@plt>:
+  4023d0:	ff 25 0a b2 21 00    	jmpq   *0x21b20a(%rip)        # 61d5e0 <_GLOBAL_OFFSET_TABLE_+0x2d8>
+  4023d6:	68 58 00 00 00       	pushq  $0x58
+  4023db:	e9 60 fa ff ff       	jmpq   401e40 <_init+0x10>
+
+00000000004023e0 <exit@plt>:
+  4023e0:	ff 25 02 b2 21 00    	jmpq   *0x21b202(%rip)        # 61d5e8 <_GLOBAL_OFFSET_TABLE_+0x2e0>
+  4023e6:	68 59 00 00 00       	pushq  $0x59
+  4023eb:	e9 50 fa ff ff       	jmpq   401e40 <_init+0x10>
+
+00000000004023f0 <fwrite@plt>:
+  4023f0:	ff 25 fa b1 21 00    	jmpq   *0x21b1fa(%rip)        # 61d5f0 <_GLOBAL_OFFSET_TABLE_+0x2e8>
+  4023f6:	68 5a 00 00 00       	pushq  $0x5a
+  4023fb:	e9 40 fa ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402400 <strdup@plt>:
+  402400:	ff 25 f2 b1 21 00    	jmpq   *0x21b1f2(%rip)        # 61d5f8 <_GLOBAL_OFFSET_TABLE_+0x2f0>
+  402406:	68 5b 00 00 00       	pushq  $0x5b
+  40240b:	e9 30 fa ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402410 <mbsinit@plt>:
+  402410:	ff 25 ea b1 21 00    	jmpq   *0x21b1ea(%rip)        # 61d600 <_GLOBAL_OFFSET_TABLE_+0x2f8>
+  402416:	68 5c 00 00 00       	pushq  $0x5c
+  40241b:	e9 20 fa ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402420 <iswprint@plt>:
+  402420:	ff 25 e2 b1 21 00    	jmpq   *0x21b1e2(%rip)        # 61d608 <_GLOBAL_OFFSET_TABLE_+0x300>
+  402426:	68 5d 00 00 00       	pushq  $0x5d
+  40242b:	e9 10 fa ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402430 <hasmntopt@plt>:
+  402430:	ff 25 da b1 21 00    	jmpq   *0x21b1da(%rip)        # 61d610 <_GLOBAL_OFFSET_TABLE_+0x308>
+  402436:	68 5e 00 00 00       	pushq  $0x5e
+  40243b:	e9 00 fa ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402440 <__ctype_b_loc@plt>:
+  402440:	ff 25 d2 b1 21 00    	jmpq   *0x21b1d2(%rip)        # 61d618 <_GLOBAL_OFFSET_TABLE_+0x310>
+  402446:	68 5f 00 00 00       	pushq  $0x5f
+  40244b:	e9 f0 f9 ff ff       	jmpq   401e40 <_init+0x10>
+
+0000000000402450 <iconv_open@plt>:
+  402450:	ff 25 ca b1 21 00    	jmpq   *0x21b1ca(%rip)        # 61d620 <_GLOBAL_OFFSET_TABLE_+0x318>
+  402456:	68 60 00 00 00       	pushq  $0x60
+  40245b:	e9 e0 f9 ff ff       	jmpq   401e40 <_init+0x10>

@@ -1,0 +1,92 @@
+00400000-0041e000 r-xp 00000000 08:01 1099098                            /home/cereal/fuzzing/data/gcc/gcc_coreutils_64_O0_df
+0061d000-0061e000 rw-p 0001d000 08:01 1099098                            /home/cereal/fuzzing/data/gcc/gcc_coreutils_64_O0_df
+0061e000-0061f000 rw-p 00000000 00:00 0 
+7f7402344000-7f7402345000 rwxp 00000000 00:00 0 
+7f740234b000-7f740234c000 rwxp 00000000 00:00 0 
+7f7402355000-7f7402356000 rwxp 00000000 00:00 0 
+7f740236e000-7f740236f000 rwxp 00000000 00:00 0 
+7f7402372000-7f7402373000 rwxp 00000000 00:00 0 
+7f7402376000-7f7402377000 rwxp 00000000 00:00 0 
+7f740237a000-7f740237b000 rwxp 00000000 00:00 0 
+7f740237e000-7f740237f000 rwxp 00000000 00:00 0 
+7f74023e1000-7f74023e2000 rwxp 00000000 00:00 0 
+7f74023e4000-7f74024a2000 rwxp 00000000 00:00 0 
+7f74024a2000-7f74024a3000 rw-p 00000000 00:00 0 
+7f74024a3000-7f74024a5000 rwxp 00000000 00:00 0 
+7f74024a5000-7f74024a6000 rw-p 00000000 00:00 0 
+7f74024a6000-7f74024c0000 rwxp 00000000 00:00 0 
+7f74024c0000-7f74024c7000 rwxp 00000000 00:00 0 
+7f74024c7000-7f7402687000 r-xp 00000000 08:01 399219                     /lib/x86_64-linux-gnu/libc-2.23.so
+7f7402687000-7f7402887000 ---p 001c0000 08:01 399219                     /lib/x86_64-linux-gnu/libc-2.23.so
+7f7402887000-7f740288b000 r--p 001c0000 08:01 399219                     /lib/x86_64-linux-gnu/libc-2.23.so
+7f740288b000-7f740288d000 rw-p 001c4000 08:01 399219                     /lib/x86_64-linux-gnu/libc-2.23.so
+7f740288d000-7f7402891000 rw-p 00000000 00:00 0 
+7f7402891000-7f74028a6000 rwxp 00000000 00:00 0 
+7f74028a6000-7f74028a7000 rwxp 00000000 00:00 0 
+7f74028a7000-7f74028a8000 rw-p 00000000 00:00 0 
+7f74028a8000-7f74028ad000 rwxp 00000000 00:00 0 
+7f74028ad000-7f74028b0000 rwxp 00000000 00:00 0 
+7f74028b0000-7f74029ae000 rwxp 00000000 00:00 0 
+7f74029ae000-7f7402b45000 rwxp 00000000 00:00 0 
+7f7402b45000-7f7412b05000 ---p 00000000 00:00 0 
+7f7412b05000-7f7413b0f000 rwxp 00000000 00:00 0 
+7f7413b0f000-7f7414991000 rw-p 00000000 00:00 0 
+7f7414991000-7f7414c62000 r-xp 00000000 08:01 271391                     /home/cereal/pin-3.0-76991-gcc-linux/intel64/lib-ext/libpin3dwarf.so
+7f7414c62000-7f7414e61000 ---p 00000000 00:00 0 
+7f7414e61000-7f7414e75000 r--p 002d0000 08:01 271391                     /home/cereal/pin-3.0-76991-gcc-linux/intel64/lib-ext/libpin3dwarf.so
+7f7414e75000-7f7414e76000 rw-p 002e4000 08:01 271391                     /home/cereal/pin-3.0-76991-gcc-linux/intel64/lib-ext/libpin3dwarf.so
+7f7414e76000-7f7414e78000 rw-p 00000000 00:00 0 
+7f7414e78000-7f7415069000 r-xp 00000000 08:01 291919                     /home/cereal/pin-3.0-76991-gcc-linux/source/tools/IMFSIM/obj-intel64/process.so
+7f7415069000-7f7415268000 ---p 00000000 00:00 0 
+7f7415268000-7f741526a000 r--p 001f0000 08:01 291919                     /home/cereal/pin-3.0-76991-gcc-linux/source/tools/IMFSIM/obj-intel64/process.so
+7f741526a000-7f741526c000 rw-p 001f2000 08:01 291919                     /home/cereal/pin-3.0-76991-gcc-linux/source/tools/IMFSIM/obj-intel64/process.so
+7f741526c000-7f7415293000 rw-p 00000000 00:00 0 
+7f7415293000-7f7415316000 r-xp 00000000 08:01 271404                     /home/cereal/pin-3.0-76991-gcc-linux/intel64/runtime/pincrt/libc-dynamic.so
+7f7415316000-7f7415317000 ---p 00000000 00:00 0 
+7f7415317000-7f7415319000 r--p 00083000 08:01 271404                     /home/cereal/pin-3.0-76991-gcc-linux/intel64/runtime/pincrt/libc-dynamic.so
+7f7415319000-7f741531b000 rw-p 00085000 08:01 271404                     /home/cereal/pin-3.0-76991-gcc-linux/intel64/runtime/pincrt/libc-dynamic.so
+7f741531b000-7f7415323000 rw-p 00000000 00:00 0 
+7f7415323000-7f74153e1000 r-xp 00000000 08:01 271398                     /home/cereal/pin-3.0-76991-gcc-linux/intel64/runtime/pincrt/libstlport-dynamic.so
+7f74153e1000-7f74153e2000 ---p 00000000 00:00 0 
+7f74153e2000-7f74153e5000 r--p 000be000 08:01 271398                     /home/cereal/pin-3.0-76991-gcc-linux/intel64/runtime/pincrt/libstlport-dynamic.so
+7f74153e5000-7f74153e7000 rw-p 000c1000 08:01 271398                     /home/cereal/pin-3.0-76991-gcc-linux/intel64/runtime/pincrt/libstlport-dynamic.so
+7f74153e7000-7f74153e8000 rw-p 00000000 00:00 0 
+7f74153e8000-7f74156d4000 r-xp 00000000 08:01 143557                     /home/cereal/pin-3.0-76991-gcc-linux/extras/xed-intel64/lib/libxed.so
+7f74156d4000-7f74156d5000 ---p 00000000 00:00 0 
+7f74156d5000-7f7415741000 r--p 002ec000 08:01 143557                     /home/cereal/pin-3.0-76991-gcc-linux/extras/xed-intel64/lib/libxed.so
+7f7415741000-7f7415742000 rw-p 00358000 08:01 143557                     /home/cereal/pin-3.0-76991-gcc-linux/extras/xed-intel64/lib/libxed.so
+7f7415742000-7f7415747000 rw-p 00000000 00:00 0 
+7f7415747000-7f7415c4c000 r-xp 00000000 08:01 271382                     /home/cereal/pin-3.0-76991-gcc-linux/intel64/bin/pinbin
+7f7415c4c000-7f7415c54000 r--p 00504000 08:01 271382                     /home/cereal/pin-3.0-76991-gcc-linux/intel64/bin/pinbin
+7f7415c54000-7f7415c5b000 rw-p 0050c000 08:01 271382                     /home/cereal/pin-3.0-76991-gcc-linux/intel64/bin/pinbin
+7f7415c5b000-7f7415d22000 rw-p 00000000 00:00 0 
+7f7415d22000-7f7415d54000 rwxp 00000000 00:00 0 
+7f7415d54000-7f7415d55000 ---p 00000000 00:00 0 
+7f7415d55000-7f7415d95000 rw-p 00000000 00:00 0 
+7f7415d95000-7f7415dbb000 r-xp 00000000 08:01 399211                     /lib/x86_64-linux-gnu/ld-2.23.so
+7f7415dbb000-7f7415dbc000 rwxp 00000000 00:00 0 
+7f7415dbc000-7f7415dec000 rw-p 00000000 00:00 0 
+7f7415dec000-7f7415df4000 r--p 00000000 00:00 0 
+7f7415df4000-7f7415e22000 r-xp 00000000 08:01 271396                     /home/cereal/pin-3.0-76991-gcc-linux/intel64/runtime/pincrt/libm-dynamic.so
+7f7415e22000-7f7415e23000 r--p 0002d000 08:01 271396                     /home/cereal/pin-3.0-76991-gcc-linux/intel64/runtime/pincrt/libm-dynamic.so
+7f7415e23000-7f7415e24000 rw-p 0002e000 08:01 271396                     /home/cereal/pin-3.0-76991-gcc-linux/intel64/runtime/pincrt/libm-dynamic.so
+7f7415e24000-7f7415e25000 r--p 00000000 00:00 0 
+7f7415e25000-7f7415e26000 rw-p 00000000 00:00 0 
+7f7415e26000-7f7415e27000 r--p 00000000 00:00 0 
+7f7415e27000-7f7415e3f000 rw-p 00000000 00:00 0 
+7f7415e3f000-7f7415e40000 r--p 00000000 00:00 0 
+7f7415e40000-7f7415e59000 rw-p 00000000 00:00 0 
+7f7415e59000-7f7415e78000 rwxp 00000000 00:00 0 
+7f7415f78000-7f7415f80000 rwxp 00000000 00:00 0 
+7f7415f80000-7f7415fb4000 r-xp 00000000 08:01 271399                     /home/cereal/pin-3.0-76991-gcc-linux/intel64/runtime/pincrt/linker
+7f7415fb4000-7f7415fb5000 ---p 00000000 00:00 0 
+7f7415fb5000-7f7415fb6000 r--p 00034000 08:01 271399                     /home/cereal/pin-3.0-76991-gcc-linux/intel64/runtime/pincrt/linker
+7f7415fb6000-7f7415fb7000 rw-p 00035000 08:01 271399                     /home/cereal/pin-3.0-76991-gcc-linux/intel64/runtime/pincrt/linker
+7f7415fb7000-7f7415fba000 rw-p 00000000 00:00 0 
+7f7415fba000-7f7415fbb000 r--p 00025000 08:01 399211                     /lib/x86_64-linux-gnu/ld-2.23.so
+7f7415fbb000-7f7415fbc000 rw-p 00026000 08:01 399211                     /lib/x86_64-linux-gnu/ld-2.23.so
+7f7415fbc000-7f7415fbd000 rw-p 00000000 00:00 0 
+7ffef4a1e000-7ffef4a40000 rw-p 00000000 00:00 0                          [stack]
+7ffef4b35000-7ffef4b38000 r--p 00000000 00:00 0                          [vvar]
+7ffef4b38000-7ffef4b3a000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
