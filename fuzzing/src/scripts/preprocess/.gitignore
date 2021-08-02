@@ -1,0 +1,6 @@
+*.txt
+*.info
+*~
+*.s
+*.pyc
+*.pkl

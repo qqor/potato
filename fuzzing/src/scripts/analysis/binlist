@@ -1,0 +1,4 @@
+echo
+false
+true
+tty
